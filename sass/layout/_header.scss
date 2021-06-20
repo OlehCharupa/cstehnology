@@ -95,7 +95,7 @@
       .site-nav {
         display: flex;
         .link {
-          font-size: 1em;
+          font-size: 1.2em;
           line-height: 1.142;
         }
       }
@@ -106,8 +106,17 @@
 @media screen and (min-width: 1200px) {
   .main-nav {
     justify-content: space-between;
+    .header-menu {
+      .site-nav {
+        .link {
+          font-size: 1.6em;
+          line-height: 1.142;
+        }
+      }
+    }
+
     .logoSvg {
-      width: 200px;
+      width: 300px;
     }
   }
 }
