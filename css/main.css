@@ -343,6 +343,10 @@ template {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #020a18;
   color: #ffffff;

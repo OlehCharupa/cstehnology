@@ -3,7 +3,9 @@
 ::before {
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: $background-color;
   color: $text-color;
