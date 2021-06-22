@@ -75,7 +75,7 @@
                 <a href="/" class="link">Корисні статті</a>
               </li>
               <li class="item">
-                <a href="/" class="link">Контакти</a>
+                <p data-modal-open class="link">Контакти</p>
               </li>
             </ul>
           </nav>
@@ -255,7 +255,22 @@
         </div>
       </section>
     </main>
-
+<!-- =============================================================
+== MODAL =========================================================
+================================================================== -->
+<div class="is-hidden backdrop" data-modal>
+    <div class="modal-open-content">
+        <button class="button-close-modal" data-modal-close>
+            <svg class="icon-close">
+                <use href="./images/sprint.svg#icon-icon-close"></use>
+            </svg>
+        </button>
+        <h2 class="modal-title">Тут будут контакты</h2>
+    </div>
+</div>
+<!-- =============================================================
+== SCRIPTS  ======================================================
+================================================================== -->
     <script src="./js/menu.js"></script>
     <script
       type="text/javascript"
@@ -264,5 +279,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="./js/slider.js"></script>
     <script src="./js/scroll.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
