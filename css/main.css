@@ -486,7 +486,7 @@ button {
 @media screen and (min-width: 768px) {
   .site-nav .item:not(:nth-last-child(-n + 1)) {
     margin-bottom: 0;
-    margin-right: 50px;
+    margin-right: 20px;
   }
 }
 
@@ -503,7 +503,7 @@ button {
     display: none;
     position: absolute;
     z-index: 10;
-    top: 55px;
+    top: 60px;
     text-align: center;
     left: 0;
     right: 0;
@@ -528,7 +528,7 @@ button {
     display: flex;
   }
   .main-nav .header-menu .site-nav .link {
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 1.142;
   }
 }
@@ -579,7 +579,7 @@ button {
 }
 
 .hero-image {
-  animation-duration: 2000ms;
+  animation-duration: 3000ms;
   margin: 0 auto;
   margin-bottom: 40px;
 }
@@ -690,7 +690,7 @@ button {
 }
 
 .about .about-image {
-  animation-duration: 1000ms;
+  animation-duration: 3000ms;
   margin: 0 auto;
   margin-bottom: 30px;
 }
@@ -869,7 +869,7 @@ button {
 .about2 .about2-wrapper .about2-image {
   margin: 0 auto;
   margin-bottom: 30px;
-  animation-duration: 1000ms;
+  animation-duration: 3000ms;
 }
 
 .about2 .about2-wrapper .about2-title {
