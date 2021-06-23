@@ -75,7 +75,7 @@
                 <a href="./html/blog.html" class="link">Корисні статті</a>
               </li>
               <li class="item">
-                <a href="/" class="link">Контакти</a>
+                <p data-modal-open class="link">Контакти</p>
               </li>
             </ul>
           </nav>
@@ -104,7 +104,7 @@
               <button type="button" class="buttonHero">Watch Video</button>
             </div>
           </div>
-          <div class="hero-image animate__zoomIn">
+          <div class="hero-image anim-items">
             <img src="./images/hero/image.svg" alt="heroImage" />
           </div>
         </div>
@@ -112,16 +112,16 @@
       <section class="partners">
         <div class="container">
           <ul class="partnersList">
-            <li class="partnersItem animate__heartBeat">
+            <li class="partnersItem anim-items">
               <img src="./images/partners/img1.svg" alt="logoPartner" />
             </li>
-            <li class="partnersItem animate__heartBeat">
+            <li class="partnersItem anim-items">
               <img src="./images/partners/img2.svg" alt="logoPartner" />
             </li>
-            <li class="partnersItem animate__heartBeat">
+            <li class="partnersItem anim-items">
               <img src="./images/partners/img3.svg" alt="logoPartner" />
             </li>
-            <li class="partnersItem animate__heartBeat">
+            <li class="partnersItem anim-items">
               <img src="./images/partners/img4.svg" alt="logoPartner" />
             </li>
           </ul>
@@ -129,7 +129,7 @@
       </section>
       <section class="about">
         <div class="container wrapper-about">
-          <div class="about-image animate__zoomIn">
+          <div class="about-image anim-items">
             <img src="./images/about/about4.svg" alt="aboutImage" />
           </div>
           <div class="about-content">
@@ -249,19 +249,36 @@
               </p>
             </div>
           </div>
-          <div class="about2-image animate__zoomIn">
+          <div class="about2-image anim-items">
             <img src="./images/about/about3.svg" alt="aboutImage" />
           </div>
         </div>
       </section>
     </main>
-
+<!-- =============================================================
+== MODAL =========================================================
+================================================================== -->
+<div class="is-hidden backdrop" data-modal>
+    <div class="modal-open-content">
+        <button class="button-close-modal" data-modal-close>
+            <svg class="icon-close">
+                <use href="./images/sprint.svg#icon-icon-close"></use>
+            </svg>
+        </button>
+        <h2 class="modal-title">Тут будут контакты</h2>
+    </div>
+</div>
+<!-- =============================================================
+== SCRIPTS  ======================================================
+================================================================== -->
     <script src="./js/menu.js"></script>
     <script
       type="text/javascript"
-      src="http://cdn.leadbit.com/js/jquery.js"
+      src="https://cdn.leadbit.com/js/jquery.js"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="./js/slider.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
